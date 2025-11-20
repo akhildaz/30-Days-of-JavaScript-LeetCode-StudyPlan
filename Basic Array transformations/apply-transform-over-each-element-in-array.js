@@ -96,3 +96,13 @@ var map = function (arr, fn) {
     }
     return newArr;
 }
+
+// now you can use this map function like the built-in map method
+
+const arr6 = [1, 2, 3, 4];
+
+const result = map(arr6, (value, index) => {
+    return value + index;
+});
+
+console.log(result); // output: [1, 3, 5, 7]
