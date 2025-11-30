@@ -13,7 +13,6 @@ var timeLimit = function (fn, t) {
                 reject("Time Limit Exceeded");
             }, t);
 
-
             fn(...args).then(resolve).catch(reject);
         })
     }
