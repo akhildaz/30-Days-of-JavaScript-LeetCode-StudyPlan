@@ -24,6 +24,7 @@
 // At t=50, count() is called and there is one active key in the cache.
 // At t=100, key=1 expires.
 // At t=150, get(1) is called but -1 is returned because the cache is empty.
+
 // Example 2:
 
 // Input: 
