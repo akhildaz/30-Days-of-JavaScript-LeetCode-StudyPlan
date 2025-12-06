@@ -10,7 +10,6 @@
 // count(): returns the count of un-expired keys.
 
 // Example 1:
-
 // Input: 
 // actions = ["TimeLimitedCache", "set", "get", "count", "get"]
 // values = [[], [1, 42, 100], [1], [], [1]]
